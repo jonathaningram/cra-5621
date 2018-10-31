@@ -1,0 +1,38 @@
+{
+  "extends": ["tslint-react"],
+  "rules": {
+    "ban": false,
+    "comment-format": [true, "check-space"],
+    "curly": true,
+    "eofline": false,
+    "forin": true,
+    "interface-name": [true, "never-prefix"],
+    "jsdoc-format": true,
+    "jsx-curly-spacing": false,
+    "jsx-no-lambda": false,
+    "jsx-no-multiline-js": false,
+    "label-position": true,
+    "no-any": true,
+    "no-arg": true,
+    "no-bitwise": true,
+    "no-construct": true,
+    "no-debugger": true,
+    "no-duplicate-variable": true,
+    "no-empty": true,
+    "no-eval": true,
+    "no-shadowed-variable": true,
+    "no-string-literal": true,
+    "no-trailing-whitespace": false,
+    "no-unused-expression": [true, "allow-tagged-template"],
+    "one-line": [
+      true,
+      "check-catch",
+      "check-else",
+      "check-open-brace",
+      "check-whitespace"
+    ],
+    "radix": true,
+    "triple-equals": [true, "allow-null-check"],
+    "typedef": [true, "parameter", "property-declaration"]
+  }
+}
